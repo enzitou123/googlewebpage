@@ -1,14 +1,48 @@
 /*will define every part of the document and where it will be*/
+html {font-family: sans-serif;}/*this is the font*/
+
 
 #top {
 	position:absolute;
 	top:0px;
 	right:0px;
-	margin:;
-	left:;
-	width:;
+
 
 }
+#tabletop,#tableleft,#tableright /*for letting the tables together*/
+{
+	border-collapse: separated;
+	border-spacing:  10px
+}
+
+#circle /*circle en the picture on top*/{
+border-radius:50% 50% 50% 50%;
+
+
+}
+
+
+a:link {/*links color and function*/
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#bot {
+	position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
 #tabletmid
 {
     border-collapse: collapse;
@@ -20,33 +54,27 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%)
 }
 
-
-
-#bot {
-	position: absolute;
-       top: 55%;
-       left: 50%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%) }
+#voice{
+  position: absolute;
+  top: 50%;
+  left: 97%;
+  transform: translate(-50%, -50%);
+  height: 19px;
+  width: auto;
+  float: left;
+  
 }
 
-
-
-
-#underbot {
-	position:absolute;
-	top:;
-	right:;
-	bottom:0px;
-	margin:;
-	left:0px;
-	width:;
-
-}
-
+#left{	position: absolute;
+		left:0;
+		bottom:0;}
+#right{	
+		position: fixed;
+		right:0;
+		bottom:0;}
 
 
 #middle {
@@ -56,21 +84,11 @@
        margin-right: -50%;
        transform: translate(-50%, -50%) }
 
-}
 
 
 
-td {
-font-family:Arial;
-font-size: 12px;
-
-
-}
 
 
 
-#circle{
-border-radius:50% 50% 50% 50%;
 
 
-}
